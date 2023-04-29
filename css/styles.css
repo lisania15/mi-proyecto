@@ -2,7 +2,7 @@
 
 /* Fonts */
 /* Importar aquí la font */
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 
 /* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
@@ -54,3 +54,122 @@ main {
 *    pueden ser frustrantes, pero estas habilidades se van desarrollando con la experiencia, es como aprender
 *    un trabajo manual, hacer una artesanía, tocar un instrumento musical... la práctica es todo!
 */
+/*estilos generales*/
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #fbfbfb;
+    color: #0f0f0f;
+    font-size: 18px;
+    line-height: 1.2;
+}
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+h2 {
+    font-size: 28px;
+    text-align: center;
+}
+p {
+    margin: 20px 20px;    
+}
+img {
+    max-width: 100%;
+}
+
+/*header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    padding: 16px;
+    box-shadow: 0 3px 10px -5px #5f5f5f;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    width: 150px;
+}
+
+.menu {
+    display: flex;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.menu li a {
+    padding: 16px;
+}
+
+/*estilar section*/
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    min-height: 100vh;
+    padding-top: 120px;
+}
+
+#inicio {
+    justify-content: space-around;
+}
+
+.presentacion-img {
+    margin-bottom: 20px;    
+}
+
+.presentacion-img img {
+    width: 400px;
+}
+
+/*estilar article*/
+.presentacion {
+    width: 100%;
+    text-align: center;
+}
+
+.btn-cv {
+    background-color:  #af599e;
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+/*estilar contacto*/
+#contacto {
+    justify-content: space-around;
+}
+
+.hablemos {
+   background-color: rgba(175, 89, 158, 0.3); 
+   border-radius: 10px;
+   width: 100%;
+   text-align: center;
+   padding: 12px 20px;
+}
+
+.iconos {
+    width: 80px;
+    margin-right: 30px;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.footer {
+    background-color: #af599e;
+    height: 90px;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    color: #fbfbfb;
+}
