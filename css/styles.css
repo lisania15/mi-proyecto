@@ -127,6 +127,7 @@ section{
 
 .presentacion-img img {
     width: 400px;
+    border-radius: 100%;
 }
 
 /*estilar article*/
